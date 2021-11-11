@@ -65,9 +65,10 @@
   - Parsiuntus užrašykite 'parsiųsta!'
   
 7. Įgalinti laukimo animaciją, kol yra parsiunčiami duomenys [1]
-  - dirbtinai užvilkinti parsiuntimą 1s, jog matytūsi animaciją
+  - dirbtinai užvilkinti parsiuntimą 1s, jog matytūsi animacija
   - Kol siunčiami duomenys, atvaizduokite animaciją
-  - Parsiuntus duomenis atvaizduokite minimalius kortelių elementus, pagal parsiųstus duomenis
+  - Su kiekvinu parsiųstų duomenų objektu sukurkite minimalias korteles (CarGridComponent).
+    - šias korteles atvaizduokite 'bootstrap grid'u
 
 8. CarCardComponent klasėje įgalinkite komponeneto atvaizdavimą pagal this.props gautas reikšmes: [1]
   - JEIGU KAINA PATEIKTA DOLERIAIS, PAVERSKITE EURAIS IR TUOMET ATVAIZDUOKITE
