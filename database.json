@@ -43,7 +43,7 @@
       "year": 2014,
       "fuelType": "electric",
       "price": {
-        "amount": 35001.00,
+        "amount": 35000.00,
         "currency": "$"
       },
       "imgSrc": "https://www.auto-data.net/images/f68/Tesla-Model-S.jpg"

@@ -8,7 +8,7 @@ class CarCardComponent {
   }
 
   init = () => {
-    const { brand, model, year, fuelType, price, imgSrc } = this.props;
+    const { brand, model, year, fuelType, price, imgSrc, onDelete } = this.props;
     const { amount, currency } = price;
 
     const finalPrice = currency === '$' ? amount * CarCardComponent.USD_EUR : amount;
@@ -34,6 +34,11 @@ class CarCardComponent {
           <strong>${formatedPrice}</strong>
         </li>
       </ul>
+      <div class="text-center">
+        <button class="btn btn-danger">Ištrinti</button>
+      </div>
     </div>`;
+    const btn = this.htmlElement.querySelector('.btn');
+    btn.addEventListener('click', onDelete);
   }
 }
