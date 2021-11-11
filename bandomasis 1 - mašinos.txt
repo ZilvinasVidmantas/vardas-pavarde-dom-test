@@ -9,18 +9,18 @@
     - Daiktus sukurkite taip, jog būtų panaudotos visos savybių variacijos.
     - Taip pat rekomenduojama susikurti json duomenų kopiją, jog aplikacijai pakeitus duomenis būtų galima persikopijuoti orginalius/pradinius duomenis.
     - mašiną aprašančios savybės:
-        type Car = {
-          id: string,
-          brand: string,
-          model: string,
-          year: number,
-          fuelTypes: 'gas' | 'dysel' | 'petrol' | 'electric' | 'hybrid',
-          price: {
-            amount: number,
-            currency: '$' | '€'
-          },
-          imgSrc: 'string'
-        }
+      type Car = {
+        id: string,
+        brand: string,
+        model: string,
+        year: number,
+        fuelType: 'gas' | 'dysel' | 'petrol' | 'electric' | 'hybrid',
+        price: {
+          amount: number,
+          currency: '$' | '€'
+        },
+        imgSrc: 'string'
+      }
 
 3. Sukurkite projekto aprašymą: [1]  
   - sugeneruokite package.json failą
