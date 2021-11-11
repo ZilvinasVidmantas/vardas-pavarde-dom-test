@@ -1,5 +1,5 @@
 class CarGridComponent {
-  constructor(){
+  constructor() {
     this.init();
   }
 
